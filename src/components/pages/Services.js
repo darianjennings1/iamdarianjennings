@@ -14,10 +14,11 @@ function Services() {
           <h2>Research: <i class="fas fa-search-plus"></i></h2>
           <br></br>
             <p1>Drone Data Communication System (DDCS)</p1>
-            <p>•	Designed and implemented a drone data communication system for St. Mary’s Unmanned 
-              Aerial Systems Lab. Limited details can be released regarding this project at this time. 
-              A research paper has been written up and submitted to the International Telemetry 
-              Conference (ITC) for 2022. Utilized software includes but is not limited to: 
+            <p>•	Designed and implemented a drone data communication system for our client - 
+              St. Mary’s Unmanned Aerial Systems Lab.<br></br>
+              •	A research paper has been written up and submitted to the International Telemetry 
+              Conference (ITC) for 2022. <br></br>
+              •	Utilized software includes but is not limited to: 
               Linux OS, Qt Creator/Designer, Redis, Python, MATLAB, NAVIO, and Raspberry Pi OS.
             </p>
             <br></br>
