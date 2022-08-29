@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.0342d859.chunk.css",
-    "main.js": "/static/js/main.6f13b1bf.chunk.js",
-    "main.js.map": "/static/js/main.6f13b1bf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.687a7ac0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.687a7ac0.js.map",
-    "static/js/2.c3b074dc.chunk.js": "/static/js/2.c3b074dc.chunk.js",
-    "static/js/2.c3b074dc.chunk.js.map": "/static/js/2.c3b074dc.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.0342d859.chunk.css.map": "/static/css/main.0342d859.chunk.css.map",
-    "static/js/2.c3b074dc.chunk.js.LICENSE.txt": "/static/js/2.c3b074dc.chunk.js.LICENSE.txt",
-    "static/media/heroSection.css": "/static/media/home.e23176eb.png",
-    "static/media/App.css": "/static/media/signup.29c0a788.jpeg",
-    "static/media/navbar.css": "/static/media/stmu.8ab86ee2.png"
+    "main.css": "/darianjennings1/darianjennings1.github.io.git/static/css/main.175da439.chunk.css",
+    "main.js": "/darianjennings1/darianjennings1.github.io.git/static/js/main.f11edad1.chunk.js",
+    "main.js.map": "/darianjennings1/darianjennings1.github.io.git/static/js/main.f11edad1.chunk.js.map",
+    "runtime-main.js": "/darianjennings1/darianjennings1.github.io.git/static/js/runtime-main.c08b72cf.js",
+    "runtime-main.js.map": "/darianjennings1/darianjennings1.github.io.git/static/js/runtime-main.c08b72cf.js.map",
+    "static/js/2.b4068d13.chunk.js": "/darianjennings1/darianjennings1.github.io.git/static/js/2.b4068d13.chunk.js",
+    "static/js/2.b4068d13.chunk.js.map": "/darianjennings1/darianjennings1.github.io.git/static/js/2.b4068d13.chunk.js.map",
+    "index.html": "/darianjennings1/darianjennings1.github.io.git/index.html",
+    "static/css/main.175da439.chunk.css.map": "/darianjennings1/darianjennings1.github.io.git/static/css/main.175da439.chunk.css.map",
+    "static/js/2.b4068d13.chunk.js.LICENSE.txt": "/darianjennings1/darianjennings1.github.io.git/static/js/2.b4068d13.chunk.js.LICENSE.txt",
+    "static/media/heroSection.css": "/darianjennings1/darianjennings1.github.io.git/static/media/home.e23176eb.png",
+    "static/media/App.css": "/darianjennings1/darianjennings1.github.io.git/static/media/signup.29c0a788.jpeg",
+    "static/media/navbar.css": "/darianjennings1/darianjennings1.github.io.git/static/media/stmu.8ab86ee2.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.687a7ac0.js",
-    "static/js/2.c3b074dc.chunk.js",
-    "static/css/main.0342d859.chunk.css",
-    "static/js/main.6f13b1bf.chunk.js"
+    "static/js/runtime-main.c08b72cf.js",
+    "static/js/2.b4068d13.chunk.js",
+    "static/css/main.175da439.chunk.css",
+    "static/js/main.f11edad1.chunk.js"
   ]
 }
