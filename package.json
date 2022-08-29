@@ -1,10 +1,9 @@
 {
-  "homepage": "https://github.com/darianjennings1.github.io.git",
+  "homepage": "https://github.com/darianjennings1/darianjennings1.github.io.git",
   "name": "rattlerassist",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^4.0.0",
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
