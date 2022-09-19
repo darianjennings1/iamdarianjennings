@@ -14,9 +14,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/"><Home /></Route>
           <Route path="/services"><Services /></Route>
           <Route path="/about"><About /></Route>
+          <Route path="/"><Home /></Route>
         </Switch>
         <Footer/>
       </Router>
