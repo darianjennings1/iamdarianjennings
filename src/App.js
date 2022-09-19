@@ -9,16 +9,13 @@ import SignUp from './components/pages/SignUp';
 import Footer from './components/Footer';
 
 
-window.onbeforeunload = function Refresh() {
-  window.scrollTo(0, 0);
-}
 function App() {
   return (
     <>
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/home' exact component={Home} />
+          <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
           <Route path='/about' component={About} />
           <Route path='/sign-up' component={SignUp} />

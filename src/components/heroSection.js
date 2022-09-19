@@ -9,7 +9,7 @@ function heroSection() {
       <h1>WELCOME</h1>
       <br></br><br></br>
       <p>This is my personal website that I develop in my free time!<br></br>Here 
-      you can learn a little bit about me and my various work experience and projects.</p>
+      you can learn a little bit about me and my various work experience/projects.</p>
     </div>
   );
 }

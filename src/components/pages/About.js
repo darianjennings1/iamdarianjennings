@@ -11,6 +11,10 @@ function About() {
     <h1 className='about'>ABOUT</h1>
     <div className='about-wrapper'>
         <div className='about-container'>
+        <a href="https://ibb.co/gRZfBCg"><img src="https://i.ibb.co/QKvT1Gm/IMG-8752.jpg" 
+          class="center" alt="IMG-8752" border="0" width="300" height="400"/>
+        </a>
+          <br></br><br></br><br></br>
           <h2>Education: </h2>
             <br></br>
             <p1>B.S. Computer Engineering</p1> 
