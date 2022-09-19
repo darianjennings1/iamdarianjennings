@@ -27,6 +27,7 @@ video {
   .hero-container > p {
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 8px;
     background-color: #0D4D84;
     color: white;

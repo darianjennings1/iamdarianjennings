@@ -8,22 +8,19 @@ import About from './components/pages/About';
 import SignUp from './components/pages/SignUp';
 import Footer from './components/Footer';
 
-
 function App() {
   return (
     <>
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/services' component={Services} />
-          <Route path='/about' component={About} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path="/"><Home /></Route>
+          <Route path="/services"><Services /></Route>
+          <Route path="/about"><About /></Route>
         </Switch>
         <Footer/>
       </Router>
     </>
   );
 }
-
 export default App;
