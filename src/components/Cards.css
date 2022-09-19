@@ -110,7 +110,7 @@
     }
   }
   
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 700px) {
     .cards__items {
       display: flex;
     }

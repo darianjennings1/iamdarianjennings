@@ -6,6 +6,7 @@ import Scroll2Top from '../scroll';
 
 
 export default function Home() {
+  window.location.reload(true);
   return (
     <>
       <Scroll2Top></Scroll2Top>

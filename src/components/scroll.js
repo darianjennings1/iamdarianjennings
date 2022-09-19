@@ -9,7 +9,6 @@ const Scroll2Top = ({ children, location: { pathname } }) => {
       behavior: "smooth"
     });
   }, [pathname]);
-
   return children || null;
 };
 const Scroll2Middle = ({ children, location: { pathname } }) => {
