@@ -30,7 +30,7 @@ body {
 
 header {
     position: relative;
-    height: 20%; /* Fixed height */
+    height: 20%; /* Fixed height for header */
     width: 100%; /* Full width */
     overflow: hidden; /* Hide overflowing video */
     color: #fff;
