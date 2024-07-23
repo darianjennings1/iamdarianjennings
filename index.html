@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darian Jennings - Personal Website</title>
+    <title>Darian Jennings</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <div class="video-container">
+            <video autoplay muted loop playsinline>
+                <source src="images/earth.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
         <div class="container">
             <h1>Darian Jennings</h1>
-            <p>Web Developer | HTML & CSS Specialist</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <p>Software Engineer | Cybersecurity Enthusiast</p>
         </div>
     </header>
 
     <section id="about">
         <div class="container">
             <h2>About Me</h2>
-            <p>With over 4-5 years of professional experience in HTML and CSS, I have honed my skills in creating responsive and visually appealing websites. My expertise includes crafting clean, semantic HTML and leveraging advanced CSS techniques to build modern, accessible web experiences.</p>
+            <p>With 4-5 years of professional experience as a software developer, I excel in creating dynamic applications and efficient code. 
+                I specialize in building responsive, high-performance web applications with a focus on quality, modularity, and user experience.</p>
         </div>
     </section>
 
@@ -32,35 +32,45 @@
         <div class="container">
             <h2>Projects</h2>
             <div class="project">
-                <h3>Project One</h3>
-                <p>A brief description of a significant project showcasing your HTML and CSS skills.</p>
+                <h3><a href="https://github.com/darianjennings1/ASLclassification" class="no-underline">ASL Character Classification</a></h3>
+                <p><em>Transfer learning image classification model to classify sign language images; VGG19</em></p>
             </div>
             <div class="project">
-                <h3>Project Two</h3>
-                <p>A brief description of another notable project demonstrating your expertise.</p>
+                <h3><a href="https://github.com/darianjennings1/QCrawler" class="no-underline">Qcrawler</a></h3>
+                <p><em>Automated testing tool with Q-learning based RL to “crawl” mobile-apps & detect crashes</em></p>
             </div>
-            <!-- Add more projects as needed -->
+            <div class="project">
+                <h3><a href="https://github.com/darianjennings1/Microlock_" class="no-underline">Microlock</a></h3><br>
+                <p><em>A simple tool to increase accessibility to encryption tech </em></p>
+            </div>
         </div>
     </section>
 
     <section id="contact">
         <div class="container">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me through the following channels:</p>
-            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
-            <p>GitHub: <a href="https://github.com/yourprofile" target="_blank">GitHub Profile</a></p>
+            <h2>Contact:</h2><br>
+            <p><a href="mailto:darianj00@gmail.com" class="no-underline">darianj00@gmail.com</a></p>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Darian Jennings. All rights reserved.</p>
+            <p>&copy; 2024 Darian Jennings. All rights reserved.</p><br>
             <p>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-icon">LinkedIn</a> |
-                <a href="https://github.com/yourprofile" target="_blank" class="social-icon">GitHub</a>
+                <a href="https://linkedin.com/in/darianjennings/" target="_blank" class="social-icon">LinkedIn</a> |
+                <a href="https://github.com/darianjennings1/" target="_blank" class="social-icon">GitHub</a>
             </p>
         </div>
     </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var video = document.querySelector('header video');
+        if (video) {
+            video.controls = false; // Disable video controls
+            video.disablePictureInPicture = true; // Disable PiP
+        }
+    });
+    </script>
 </body>
 </html>
