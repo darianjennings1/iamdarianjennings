@@ -6,84 +6,122 @@ body, h1, h2, h3, p {
 
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f5f5f5;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.4;
+    background-color: #ab97e3;
     color: #333;
     padding: 0;
     margin: 0;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Disable scrolling */
 }
 
 .container {
-    width: 80%;
-    max-width: 1200px;
+    width: 90%;
+    max-width: 900px; /* Reduced max-width */
     margin: 0 auto;
-    padding: 20px;
+    padding: 0; /* Remove padding for full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.no-underline {
+    text-decoration: none;
 }
 
 header {
-    background: #333;
+    position: relative;
+    height: 20%; /* Fixed height */
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide overflowing video */
     color: #fff;
-    padding: 20px 0;
     text-align: center;
+}
+
+header .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the header area */
+    transform: translate(-50%, -50%);
+    border: none; /* Ensure no border around the video */
+    pointer-events: none; /* Disable interaction */
+}
+
+header .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%); /* Center the container vertically and horizontally */
+    text-align: center;
+    z-index: 1; /* Ensure text is above the video */
 }
 
 header h1 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 2rem; /* Adjust font size */
 }
 
 header p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+    font-size: 1rem; /* Adjust font size */
+    margin-bottom: 10px;
 }
 
 section {
-    padding: 40px 0;
+    padding: 12px 0; /* Adjust padding */
+    text-align: center; /* Center text */
 }
 
 section h2 {
-    margin-bottom: 20px;
-    font-size: 2rem;
-    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+    font-size: 1rem; /* Adjust font size */
+    border-bottom: 1px solid #333;
     display: inline-block;
-    padding-bottom: 10px;
+    padding-bottom: 5px; /* Adjust padding */
+}
+
+section h3, p {
+    font-size: 1rem; /* Adjust font size */
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 5px; /* Reduced margin */
 }
 
 .project {
-    margin-bottom: 20px;
+    font-size: 1rem; /* Adjust font size */
+    text-align: left;
+    margin-bottom: 5px; /* Reduced margin */
 }
 
 footer {
-    background: #333;
+    background: #333; /* Solid color for better readability */
     color: #fff;
     text-align: center;
-    padding: 20px 0;
-    position: relative;
+    padding: 10px 0; /* Reduced padding */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
-    margin: 10px 0;
+    color: gray;
+    margin: 2px 0; /* Reduced margin */
 }
 
 .social-icon {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 5px; /* Reduced margin */
     font-weight: bold;
 }
