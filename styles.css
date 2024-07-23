@@ -105,3 +105,51 @@ footer p {
     margin: 0 5px; /* Reduced margin */
     font-weight: bold;
 }
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    body {
+        height: auto; /* Allow scrolling on mobile */
+        overflow: auto; /* Allow scrolling on mobile */
+    }
+
+    header {
+        height: 150px; /* Adjust header height for mobile */
+    }
+
+    header h1 {
+        font-size: 1.5rem; /* Adjust font size for mobile */
+    }
+
+    header p {
+        font-size: 3.5vw;
+    }
+
+    section {
+        padding-top: 4px; /* Adjust padding for mobile */
+        padding-bottom: 4px;
+    }
+
+    section h2 {
+        font-size: 1rem; /* Adjust font size for mobile */
+    }
+
+    section h3, p {
+        font-size: 1rem; /* Adjust font size for mobile */
+    }
+
+    .project {
+        font-size: 1rem; /* Adjust font size for mobile */
+    }
+
+    footer {
+        padding: 8px 0; /* Adjust padding for mobile */
+    }
+    footer p {
+        text-align: center;
+    }
+
+    .social-icon {
+        margin: 0 3px; /* Adjust margin for mobile */
+    }
+}
