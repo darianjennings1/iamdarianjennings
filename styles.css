@@ -63,42 +63,46 @@ main {
 }
 
 section {
-    padding: 12px 0; /* Adjust padding */
-    text-align: center; /* Center text */
-    width: 100%; /* Ensure full width */
+    padding: 12px 0; 
+    text-align: center;
+    width: 100%; 
     flex: 1; /* Allow sections to grow and shrink equally */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+    justify-content: center;
+    align-items: center; 
 }
 
 section h2 {
     margin-bottom: 10px;
-    font-size: 1rem; /* Adjust font size */
+    font-size: 1rem; 
     border-bottom: 1px solid #333;
     display: inline-block;
-    padding-bottom: 5px; /* Adjust padding */
+    padding-bottom: 5px;
 }
 
 section h3, p {
-    font-size: 1rem; /* Adjust font size */
+    font-size: 1rem; 
     display: inline-block;
     text-align: left;
-    margin-bottom: 5px; /* Reduced margin */
+    margin-bottom: 5px; 
 }
 
 .project {
-    font-size: 1rem; /* Adjust font size */
+    font-size: 1rem; 
     text-align: left;
-    margin-bottom: 5px; /* Reduced margin */
+    margin-bottom: 5px;
+}
+
+.project h3 a {
+    font-style: italic;
 }
 
 footer {
-    background: #333; /* Solid color for better readability */
+    background: #333; 
     color: #fff;
     text-align: center;
-    padding: 10px 0; /* Reduced padding */
+    padding: 10px 0; 
     width: 100%;
     position: relative;
     margin-top: auto; /* Push footer to the bottom */
@@ -106,24 +110,42 @@ footer {
 
 footer p {
     color: #fff;
-    margin: 2px 0; /* Reduced margin */
+    margin: 2px 0;
 }
 
 .social-icon {
     color: white;
     text-decoration: none;
-    margin: 0 5px; /* Reduced margin */
+    margin: 0 5px; 
     font-weight: bold;
 }
+  
+.project a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.project a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .project a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 /* Mobile styles */
 @media (max-width: 600px) {
     header {
-        height: 20vh; /* Adjust header height for mobile */
+        height: 20vh;
     }
 
     header h1 {
-        font-size: 1.5rem; /* Adjust font size for mobile */
+        font-size: 1.5rem;
     }
 
     header p {
@@ -131,28 +153,28 @@ footer p {
     }
 
     main {
-        overflow-y: auto; /* Allow scrolling within the main content */
+        overflow-y: auto; 
     }
 
     section {
-        padding-top: 4px; /* Adjust padding for mobile */
+        padding-top: 4px; 
         padding-bottom: 4px;
     }
 
     section h2 {
-        font-size: 1rem; /* Adjust font size for mobile */
+        font-size: 1rem; 
     }
 
     section h3, p {
-        font-size: 1rem; /* Adjust font size for mobile */
+        font-size: 1rem; 
     }
 
     .project {
-        font-size: 1rem; /* Adjust font size for mobile */
+        font-size: 1rem; 
     }
 
     footer {
-        padding: 8px 0; /* Adjust padding for mobile */
+        padding: 8px 0;
     }
 
     footer p {
@@ -160,6 +182,6 @@ footer p {
     }
 
     .social-icon {
-        margin: 0 3px; /* Adjust margin for mobile */
+        margin: 0 3px;
     }
 }
