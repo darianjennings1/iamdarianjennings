@@ -5,15 +5,16 @@ body, h1, h2, h3, p {
 }
 
 /* Basic styling */
-body {
+html, body {
     font-family: 'Roboto Mono', monospace;
     line-height: 1.4;
     background-color: #ab97e3;
     color: #333;
     padding: 0;
     margin: 0;
-    height: 100vh; /* Full viewport height */
-    overflow: hidden; /* Disable scrolling */
+    height: 100%; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
@@ -32,20 +33,14 @@ header {
     background: url('header.png') no-repeat center center;
     background-size: cover; /* Make sure image covers the header */
     position: relative;
-    height: 20%; /* Set fixed height for header */
+    height: 20vh; /* Set height for header */
     width: 100%; /* Full width */
     color: #fff;
     text-align: center;
-}
-
-header .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%); /* Center the container vertically and horizontally */
-    text-align: center;
-    z-index: 1; /* Ensure text is above the image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 header h1 {
@@ -58,9 +53,24 @@ header p {
     margin-bottom: 10px;
 }
 
+main {
+    flex: 1; /* Take up the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute sections evenly */
+    align-items: center; /* Center content horizontally */
+    overflow-y: auto; /* Allow scrolling within the main content if needed */
+}
+
 section {
     padding: 12px 0; /* Adjust padding */
     text-align: center; /* Center text */
+    width: 100%; /* Ensure full width */
+    flex: 1; /* Allow sections to grow and shrink equally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
 }
 
 section h2 {
@@ -89,13 +99,13 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0; /* Reduced padding */
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    position: relative;
+    margin-top: auto; /* Push footer to the bottom */
 }
 
 footer p {
-    color: gray;
+    color: #fff;
     margin: 2px 0; /* Reduced margin */
 }
 
@@ -108,13 +118,8 @@ footer p {
 
 /* Mobile styles */
 @media (max-width: 600px) {
-    body {
-        height: auto; /* Allow scrolling on mobile */
-        overflow: auto; /* Allow scrolling on mobile */
-    }
-
     header {
-        height: 150px; /* Adjust header height for mobile */
+        height: 20vh; /* Adjust header height for mobile */
     }
 
     header h1 {
@@ -123,6 +128,10 @@ footer p {
 
     header p {
         font-size: 3.5vw;
+    }
+
+    main {
+        overflow-y: auto; /* Allow scrolling within the main content */
     }
 
     section {
@@ -145,6 +154,7 @@ footer p {
     footer {
         padding: 8px 0; /* Adjust padding for mobile */
     }
+
     footer p {
         text-align: center;
     }
